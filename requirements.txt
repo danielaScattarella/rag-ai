@@ -1,0 +1,12 @@
+langchain
+langchain-community
+langchain-openai
+faiss-cpu
+pytest
+python-dotenv
+tiktoken
+openai
+langchain-google-genai
+langchain-groq
+sentence-transformers
+streamlit
