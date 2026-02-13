@@ -91,23 +91,6 @@ The system supports:
 - pipe-delimited .txt
 - comma-delimited .csv
 
-------------------------------------------------------------
-PROJECT STRUCTURE
-------------------------------------------------------------
-
-earthquake-rag-system/
-├── app.py                     (Streamlit UI)
-├── data/                      (Earthquake datasets)
-│      ├── query.txt
-│      
-├── src/
-│      ├── ingestion.py        (EarthquakeLoader, cleaner, splitter)
-│      ├── vectorizer.py       (Embeddings + FAISS)
-│      ├── retrieval.py        (Retriever + logs)
-│      ├── rag.py              (Groq LLM chain)
-│      ├── prompts.py          (Earthquake RAG prompt)
-│      └── main.py             (CLI)
-└── tests/                     (Pytest suite)
 
 ------------------------------------------------------------
 CONFIGURATION
