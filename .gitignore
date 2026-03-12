@@ -1,0 +1,96 @@
+# ----------------------------
+# PYTHON BASICS
+# ----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.p
+*.pickle
+
+# Virtual environments
+venv/
+.env/
+.env.bak/
+*.env
+
+# Cache
+.cache/
+.ipynb_checkpoints/
+
+# ----------------------------
+# LOGS & RUNTIME OUTPUTS
+# ----------------------------
+logs/
+*.log
+
+# ----------------------------
+# DATA & VECTOR STORE
+# DO NOT COMMIT RAW DATA
+# ----------------------------
+data/*.txt
+data/*.csv
+data/*.json
+data/*.log
+data/*.xml
+data/*.pdf
+
+# Keep dataset structure but ignore contents
+data/*
+
+# Optional: keep an empty placeholder
+!data/.gitkeep
+
+# Vector DB indexes (FAISS, Qdrant local, Chroma)
+index/
+indexes/
+vectorstore/
+*.faiss
+*.hnsw
+*.bin
+*.db
+
+# ----------------------------
+# STREAMLIT / WEB OUTPUT
+# ----------------------------
+.streamlit/
+**/.streamlit/
+
+# Uploaded files
+uploads/
+uploaded_files/
+*.upload
+
+# ----------------------------
+# TEMP & SYSTEM FILES
+# ----------------------------
+tmp/
+temp/
+*.tmp
+*.temp
+*~
+
+# MacOS finder junk
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows junk
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ----------------------------
+# EDITOR SPECIFIC
+# ----------------------------
+.vscode/
+.idea/
+*.code-workspace
+
+# ----------------------------
+# TESTS / EXPERIMENTS
+# ----------------------------
+test_output/
+experiments/
+scratch/
