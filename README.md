@@ -1,12 +1,15 @@
 EARTHQUAKE RAG SYSTEM
 =====================
 
-A production-ready Retrieval-Augmented Generation (RAG) system designed for analyzing INGV earthquake data.  
-You can ask natural-language questions about Italian seismic events and receive grounded, deterministic answers sourced directly from the INGV catalog.
+## Project Scope
+This project illustrates an Artificial Intelligence agent that deals with making semantic queries of seismic datasets on a global scale that it analyzes. It is based on a Retrieval-Augmented Generation (RAG) architecture, which operates on the latest generation of language models (LLMs) and a structured data recovery engine that allows complex natural language queries to be transformed into high-precision analytical operations. The agent uses data from the National Institute of Geophysics and Volcanology, which contains all the seismic events recorded worldwide in the current year. Rag allows you to perform advanced natural language queries such as filtering based on magnitude or depth thresholds, geospatial reasoning to identify events in marine or continental areas, and targeted queries to points of interest or urban centers. The system allows users who do not have technical skills to obtain accurate and contextualized answers through a graphic interface. The agent allows direct queries to be carried out, with the aim of demonstrating the reliability of the retrieval engine. The project represents a solid and versatile technological base, which can be evolved into a complete operational platform if an adequate investment ecosystem or specialized partnerships become available.
 
-No hallucinations.  
-If the answer is not present in the data, the system will respond:  
-"Non lo so in base ai documenti forniti."
+## Introduction
+Monitoring and prevention are the activities that represent a fundamental element for reducing the risk of seismic events and their interpretation. In recent decades, global seismolog-ical datasets have grown thanks to the contribution of national institutes and international detection networks. Furthermore, the volume of data and its complexity requires the develop-ment of systems capable of efficiently querying, correlating and interpreting datasets. Traditional analyses, based on structured queries or manual pipelines, are now obsolete and require technical users and specialists. Therefore, I decided to study this solution based on Artificial Intelligence, which combines advanced linguistic models with retrieval mecha-nisms based on heterogeneous datasets.
+Retrieval-Augmented Generation (RAG) architectures have introduced the possibility of performing natural lan-guage analyzes and queries on datasets. This article will il-lustrate a RAG that has been designed to analyse, filter and query global seismic datasets from various monitoring insti-tutes in natural language. The framework support exploration, geospatial reasoning and complex filtering tasks. Such Rag does not require specialized skills in query languages or ge-ophysical formats. From the tests I have carried out, the pro-totype is able to return accurate answers and adapt to different types of requests.
+
+
+
 
 ------------------------------------------------------------
 KEY FEATURES
@@ -168,7 +171,7 @@ TROUBLESHOOTING
 ------------------------------------------------------------
 LICENSE
 ------------------------------------------------------------
-MIT License
+The repository were created with the support of Microsoft Copilot. The author, Rosaria Daniela Scattarella, transfers to Engineering Ingegneria Informatica S.p.A. all economic rights relating to such contents, including reproduction, modification, distribution and commercial use. © 2026 Engineering Ingegneria Informatica S.p.A. – All rights reserved.
 
 ------------------------------------------------------------
 CONTACT
