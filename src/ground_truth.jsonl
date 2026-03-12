@@ -1,0 +1,3 @@
+{"query": "Qual è la magnitudo del primo evento?", "expected_magnitude": "5.1", "expected_depth": "10", "expected_time": "2024-01-05 12:45:32", "should_refuse": false}
+{"query": "Dammi la magnitudo", "expected_magnitude": null, "expected_depth": null, "expected_time": null, "should_refuse": true}
+

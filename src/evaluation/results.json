@@ -1,0 +1,26 @@
+[
+    {
+        "query": "Qual \u00e8 la magnitudo del primo evento?",
+        "refusal_correct": true,
+        "magnitude_correct": false,
+        "depth_correct": false,
+        "time_correct": false,
+        "raw_answer": "Event ID: \nDate/Time: 2025-04-19T11:57:56.370000\nLatitude: 43.1327\nLongitude: 10.9127\nDepth (km): \nMagnitude: 1.3 (ML)\nLocation: 5 km E Monterotondo Marittimo (GR)\nEvent Type: earthquake\nAuthor: SURVEY-INGV\nCatalog:"
+    },
+    {
+        "query": "Dammi la magnitudo (manca nei dati)",
+        "refusal_correct": false,
+        "magnitude_correct": false,
+        "depth_correct": true,
+        "time_correct": false,
+        "raw_answer": "Event ID: \nDate/Time: 2025-05-10T19:02:08.960000\nLatitude: 40.6967\nLongitude: 15.423\nDepth (km): \nMagnitude: 1.5 (ML)\nLocation: 5 km NE San Gregorio Magno (SA)\nEvent Type: earthquake\nAuthor: SURVEY-INGV\nCatalog:"
+    },
+    {
+        "query": "Quali eventi nelle ultime 24h?",
+        "refusal_correct": true,
+        "magnitude_correct": false,
+        "depth_correct": true,
+        "time_correct": false,
+        "raw_answer": "Event ID: \nDate/Time: 2025-07-13T17:02:21.900000\nLatitude: 44.1798\nLongitude: 13.8107\nDepth (km): \nMagnitude: 2.8 (ML)\nLocation: Adriatico Settentrionale (MARE)\nEvent Type: earthquake\nAuthor: SURVEY-INGV\nCatalog:"
+    }
+]
