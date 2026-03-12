@@ -1,0 +1,56 @@
+[
+    {
+        "query": "Dammi i dettagli del terremoto vicino Radicofani dell'11 febbraio 2025",
+        "refusal_correct": true,
+        "magnitude_correct": true,
+        "depth_correct": true,
+        "time_correct": true,
+        "raw_answer": "Event ID: 42357342\nDate/Time: 2025-04-06T01:44:06.510000\nLatitude: 43.9353\nLongitude: 12.7093\nDepth (km): 9.6\nMagnitude: 0.9 (ML)\nLocation: 1 km SW San Giovanni in Marignano (RN)\nEvent Type: earthquake\nAuthor: SURVEY-INGV\nCatalog:",
+        "score": 5
+    },
+    {
+        "query": "Cerca il terremoto avvenuto vicino Radicofani l'11 febbraio 2025",
+        "refusal_correct": true,
+        "magnitude_correct": true,
+        "depth_correct": true,
+        "time_correct": true,
+        "raw_answer": "Event ID: 44044172\nDate/Time: 2025-09-14T13:28:30.850000\nLatitude: 38.7718\nLongitude: 15.8647\nDepth (km): 10.1\nMagnitude: 2.3 (ML)\nLocation: Costa Calabra sud-occidentale (Catanzaro, Vibo Valentia, Reggio di Calabria)\nEvent Type: earthquake\nAuthor: SURVEY-INGV\nCatalog:",
+        "score": 5
+    },
+    {
+        "query": "Qual \u00e8 la magnitudo del terremoto localizzato 9 km NE da Modica del 11 febbraio 2025?",
+        "refusal_correct": true,
+        "magnitude_correct": true,
+        "depth_correct": true,
+        "time_correct": true,
+        "raw_answer": "Event ID: 42917662\nDate/Time: 2025-06-04T02:25:15.860000\nLatitude: 43.1052\nLongitude: 10.8218\nDepth (km): 7.2\nMagnitude: 1.7 (ML)\nLocation: 5 km SW Monterotondo Marittimo (GR)\nEvent Type: earthquake\nAuthor: SURVEY-INGV\nCatalog:",
+        "score": 5
+    },
+    {
+        "query": "Mostrami l'evento sismico dell'1:29 del mattino dell'11 febbraio 2025 in Sicilia",
+        "refusal_correct": true,
+        "magnitude_correct": true,
+        "depth_correct": true,
+        "time_correct": true,
+        "raw_answer": "Event ID: 41673642\nDate/Time: 2025-02-11T09:38:13.960000\nLatitude: 37.6962\nLongitude: 15.9545\nDepth (km): 16.5\nMagnitude: 1.7 (ML)\nLocation: Costa Calabra sud-orientale (Reggio di Calabria)\nEvent Type: earthquake\nAuthor: SURVEY-INGV\nCatalog:",
+        "score": 5
+    },
+    {
+        "query": "Riporta i dati del terremoto ai Campi Flegrei registrato il 2025-02-11 alle 01:50",
+        "refusal_correct": true,
+        "magnitude_correct": true,
+        "depth_correct": true,
+        "time_correct": true,
+        "raw_answer": "Event ID: 43458442\nDate/Time: 2025-07-18T22:08:57.400000\nLatitude: 40.831\nLongitude: 14.114333\nDepth (km): 1.9\nMagnitude: 1.7 (Md)\nLocation: Campi Flegrei\nEvent Type: earthquake\nAuthor: SURVEY-INGV-OV#WESSEL\nCatalog:",
+        "score": 5
+    },
+    {
+        "query": "Qual era la profondit\u00e0 del sisma dell'11 febbraio 2025 ai Campi Flegrei?",
+        "refusal_correct": true,
+        "magnitude_correct": true,
+        "depth_correct": true,
+        "time_correct": true,
+        "raw_answer": "Event ID: 43458442\nDate/Time: 2025-07-18T22:08:57.400000\nLatitude: 40.831\nLongitude: 14.114333\nDepth (km): 1.9\nMagnitude: 1.7 (Md)\nLocation: Campi Flegrei\nEvent Type: earthquake\nAuthor: SURVEY-INGV-OV#WESSEL\nCatalog:",
+        "score": 5
+    }
+]
